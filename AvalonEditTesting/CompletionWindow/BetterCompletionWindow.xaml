@@ -1,0 +1,24 @@
+﻿<Window x:Class="AvalonEditTesting.CompletionWindow.BetterCompletionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AvalonEditTesting.CompletionWindow"
+        mc:Ignorable="d"
+        Title="BetterCompletionWindow" MinWidth="450" MinHeight="100" WindowStyle="None" ResizeMode="NoResize" Visibility="Visible" Topmost="True" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100" MaxWidth="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" ItemsSource="{Binding d_Data}" SelectedItem="{Binding SelectedItem}">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="{x:Type local:CompletionData}">
+                    <TextBlock Text="{Binding Content}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock Grid.Column="1" Text="{Binding SelectedItem.Description}">
+        </TextBlock>
+    </Grid>
+</Window>

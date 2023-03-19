@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonEditTesting", "AvalonEditTesting\AvalonEditTesting.csproj", "{4EB9AA37-BF81-495C-B46B-9CBBFB50182C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB9AA37-BF81-495C-B46B-9CBBFB50182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB9AA37-BF81-495C-B46B-9CBBFB50182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB9AA37-BF81-495C-B46B-9CBBFB50182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB9AA37-BF81-495C-B46B-9CBBFB50182C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AE764FF-C7FB-4272-9C08-031BDABE3F97}
+	EndGlobalSection
+EndGlobal
